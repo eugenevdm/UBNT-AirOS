@@ -35,5 +35,9 @@ Any older versions should work but may return information as an HTML page rather
 
 -Routes Table  http://ip:port/sroutes.cgi 
 
--Log  http://ip:port/log.cgi 
+-Log  http://ip:port/log.cgi
+
+**Notes:**
+
+On version 5.5.9 I had to remove 8443 and please also be careful of the cookies /home location, this has to actually exist. Our my system I made it "/tmp/ip_address"
 
